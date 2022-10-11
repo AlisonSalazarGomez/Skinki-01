@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:wght@200&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:wght@200&family=Yeseva+One&display=swap');
 /*
-       font-family: 'Libre Baskerville', serif;
-       font-family: 'Montserrat', sans-serif;
-       font-family: 'Poppins', sans-serif;
-       font-family: 'Yeseva One', cursive;
+       font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive;
 */
 
 *{
@@ -11,11 +12,12 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
 .Text-center{
     text-align: center;
 }
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .aling-items{
     display: flex;
     justify-content:space-evenly;
@@ -122,6 +124,23 @@
     font-size: 100px;
     display: block;
     text-align: center;
+}
+footer{
+    background: url("images/64.jpeg");
+    background-size: cover;
+    height: 100px;
+    padding-top: 20px;
+}
+footer a svg{
+    color: black;
+    margin: 17px;
+}
+footer a{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    backdrop-filter: blur(15px);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 1),8px 8px 15px rgb(0, 0, 0, 0.2), inset 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 /*********************Especificaciones*************************************/
 .content-column p{

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Poppins:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color-nav{
+    background: #e8d2d2d2;
+}
+.dropdown-menu{
+    background-color: rgba(9, 9, 9, 0.2);
+    backdrop-filter: blur(15px);
+    border: none;
+}
+.btn{
+    margin: 5px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    box-shadow: rgba(255, 255, 255, 0.774) 0px -23px 25px 0px inset, #a56da0d2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border: none;
+    color: rgb(54, 54, 54);
+}
+.btn:hover{
+    outline: none;
+}
+
+#pc{
+    background-image: url("images/23.jpg");
+    position: relative; 
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    
+} 
+
+.blur{
+    background-color: rgba(255, 255, 255, 0.226),;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.formulario{
+    background-color: rgba(255, 255, 255, 0.679);
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.formularioLabel{
+    
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgb(37, 37, 37);
+    transition: all 0.2s;
+}
+/* .formularioLabel{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgb(75, 73, 73);
+    transition: all 0.2s;
+} */
+.formularioTitulo{
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(144, 138, 138);
+    
+}
+
+.formularioInput, .formularioLabel, .formularioSubmit, .formularioOpcion{
+    display: block;
+    width: 100%;
+    height: 65px;
+    
+}
+
+.formularioInput{
+    padding: 20px;
+    background: rgba(189, 149, 149, 0.352);
+    border: 1px solid rgba(218, 203, 203, 0.559);
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.formularioInput:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.formularioInput:focus + .formularioLabel{
+   margin-top:-136px;
+} 
+
+
+
+.formularioSubmit{
+    background: rgba(201, 150, 150, 0.83);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+
+.fijar{
+    margin-top: -135px;
+}
+
+.lista{
+    width: 100%;
+    background: rgba(218, 203, 203, 0);
+    border: none;
+    color: rgb(102, 90, 90);
+}
+
+
+
+
+
+#footerP{
+    height: 300px;
+    background:url("../images/22.jpg");
+    background-size: cover;
+    box-shadow:
+                rgb(255, 255, 255) 0px 36px 30px 0px inset, 
+                rgb(255, 255, 255) 0px -30px 40px 0px inset,
+                rgb(255, 255, 255) 0px 2px 1px, 
+                rgb(255, 255, 255) 0px 4px 2px,
+                rgb(255, 255, 255) 0px 8px 4px, 
+                rgb(255, 255, 255) 0px 16px 8px, 
+                rgb(255, 255, 255) 0px 42px 16px;
+}
+#footerH{
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.39);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    
+}
+#footerH footer,#footerH header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footerH header{
+   box-sizing: border-box;
+   margin-top: 50px;
+}
+#footerH main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+#footerH main ul li{
+    display: inline;
+}
+#footerH main ul li a{
+    color: #3f2808;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+svg{
+    color: #7E500F;
+    white-space: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="loginRegistro.css">
+</head>
+<body>
+    <main>
+
+      <div class="contenedorTodo">
+        <div class="cajaTrasera">
+            <div class="cajaTraseraLogin">
+                <h3>¿Ya tienes cuenta?</h3>
+                <p>Inicia sesion para entrar en la pagina</p>
+                <button id="btnIniciarSesion">Iniciar Sesion</button>
+            </div>
+            <div class="cajaTraseraRegistro">
+                <h3>¿Aun no tienes cuenta?</h3>
+                <p>Registrate para entrar en la pagina</p>
+                <button id="btnRegistrarse">Registrarse</button>
+            </div>
+        </div>
+    <!--Formulario de login y registro-->
+        <div class="contenedorLoginRegistro">
+            <!--Login-->
+            <form action="" class="formularioLogin" id="formularioLoginVal">
+                <h2>Iniciar Sesion</h2>
+                <input type="email" placeholder="Correo Electronico" id="emailL">
+                <input type="password" placeholder="Contraseña" id="contrasenaL">
+                <button type="submit">Entrar</button>
+                <p class="warningsL" id="warningsL"></p>
+            </form>
+            <!--Registro-->
+            <form action="" class="formularioRegistro" id="formularioRegistroVal">
+                <h2>Registrate</h2>
+                <input type="text" placeholder="Nombre Completo" id="nombreR">
+                <input type="email" placeholder="Correo Electronico" id="emailR">
+                <input type="text" placeholder="Usuario" id="usuarioR">
+                <input type="password" placeholder="Contraseña" id="contrasenaR">
+                <button type="submit">Registrarse</button>
+                <p class="warningsR" id="warningsR"></p>
+            </form>
+
+        </div>
+      </div>      
+
+    </main>
+    <script src="JS/loginRegistro.js"></script>
+</body>
+</html>

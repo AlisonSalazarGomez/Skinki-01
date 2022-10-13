@@ -8,6 +8,95 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav id="head" class="navbar navbar-expand-lg color-nav">
+        <div class="container-fluid">
+            <!--<img src="" alt="Loguito">  -->
+          
+          <a class="navbar-brand" href="#">SKINKI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Calendario</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tutoriales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Basico</a></li>
+                  <li><a class="dropdown-item" href="#">Intermedio</a></li>
+                  <li><a class="dropdown-item" href="#">Avanzado</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cuidado de piel
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Crea tu rutina</a></li>
+                  <li><a class="dropdown-item" href="#">Limpieza facial</a></li>
+                  <li><a class="dropdown-item" href="#">Hidratacion</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Prevenciones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mitos</a></li>
+                  <li><a class="dropdown-item" href="#">Advertencias</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotras</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn" type="submit">Log in</button>
+              <button class="btn" type="submit">Sing in</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <main>
+        <div class="container">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+              <h1></h1>
+              <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="days"></div>
+        </div>
+      </div>
+      <aside>
+        <span id="icon1" class="material-symbols-outlined">schedule</span>
+        <span id="icon2" class="material-symbols-outlined">partly_cloudy_day</span>
+        <span id="icon3" class="material-symbols-outlined">chat_bubble</span>
+      </aside>
+      </main>
+      <script src="JS/script3.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  
 </body>
 </html>

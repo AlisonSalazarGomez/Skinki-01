@@ -142,72 +142,35 @@ footer a{
     backdrop-filter: blur(15px);
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 1),8px 8px 15px rgb(0, 0, 0, 0.2), inset 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
-/* Form Register */
-#body-register{
-    background-image: url("images/6.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+/*Calendar*/
+.month i{
+    text-align: center;
+    color: #446b66;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 1),8px 8px 15px rgb(0, 0, 0, 0.2), inset 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
-
-#main-register{
-    width: 100%;
-    padding: 20px;
-    margin: auto;
-    margin-top: 100px;
+.weekdays{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
 }
-
-.contenedorTodo{
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    position: relative;
-}
-
-.cajaTrasera{
-    width: 100%;
-    padding: 10px 20px; 
+.weekdays div{
+    width: calc(80vw / 7);
     display: flex;
     justify-content: center;
-    backdrop-filter: blur(15px);
-    background-color: rgba(62, 56, 91, 0.156);
 }
+.weekdays div span{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #8DAAA6;
+    border-radius:50% ;
+    padding-top: 10px;
 
-.cajaTrasera div{
-    margin: 100px 40px;
-    color: white;
-    transition: all 500ms;
 }
-
-.cajaTrasera div p, 
-.cajaTrasera div button{
-    margin-top: 30px;
-}
-
-.cajaTrasera div h3{
-    font-weight: 400;
-    font-size: 26px;
-}
-
-.cajaTrasera button{
-    padding: 10px 40px;
-    border: 2px solid #fff;
-    background: transparent;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    color: white;
-    outline: none;
-    transition: all 300ms;
-    border-radius: 20px;
-}
-
-.cajaTrasera button:hover{
-    background: #fff;
-    color: rgba(31, 31, 31, 0.738);
-}
-
 /*********************Especificaciones*************************************/
 .content-column p{
     width: 400px;
@@ -224,4 +187,101 @@ footer a{
 }
 .content-column span{
     color: rgba(151, 96, 67, 0.911);
+}
+.prev::before{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.next::before{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.days div{
+  font-size: 1.4rem;
+  width: calc(60vw / 7);
+  height: calc(60vw/7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+.days div:hover:not(.today) {
+    border-radius: 50%;
+    cursor: pointer;
+    border: 6px solid #eaeef0;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 1),
+    8px 8px 15px rgb(0, 0, 0, 0.2), 
+    inset 3px 3px 5px rgba(0, 0, 0, 0.1),
+    inset -1px -1px 5px rgba(255, 255, 255, 1) ;
+}
+  
+.prev-date,
+.next-date {
+    opacity: 0.5;
+}
+.container-calendar{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+.main-calendar{
+    background-color: #eeeeee;
+}
+
+/*Caja de descripciones para form*/
+.form-calendar{
+    width: 60vw;
+    height: 35vh;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 1px solid #8DAAA6;
+    background: url("images/68.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.form-calendar label{
+    color:#446b66;
+    border:#446b66;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow:  3px 1px rgb(0, 0, 0);
+}
+.form-calendar input{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
+    height: 20vh;
+    background: linear-gradient(90deg, rgba(68, 107, 102, 0.31) 29%, rgba(250,250,245,0.31) 96%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(2.3px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    outline: none;
+}
+.calendar-anadir,.calendar-guardar{
+    color: #446b66;
+    margin: 50px 0 100px 15vw;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border:1px solid #a9acab ;
+}
+.huecos{
+    display: flex;
+    flex-direction: column; 
+}
+.huecos span{
+    display: inline;
+    margin: 5px;
+    text-shadow:  3px 1px #fff;
 }

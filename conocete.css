@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pieles {
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.parada {
+    position: relative;
+    padding-top: 25px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.parada img {
+    height: 450px;
+    width: 400px;
+    background-color: aquamarine;
+    border: ridge;
+    transition: filter .5s;
+}
+
+.parada:hover img {
+    filter: blur(5px);
+}
+
+.parada-texto {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.parada:hover .parada-texto {
+    display: block;
+}
+
+
+.acostado img {
+    background-color: blue;
+    width: 90%;
+    height: 206px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    border: ridge;
+}
+
+h1 {
+    font-weight: 400px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(246, 216, 228);
+}
+
+h2 {
+    margin: 0%;
+    display: inline;
+}
+
+article {
+    width: 100%;
+    box-sizing: border-box;
+}

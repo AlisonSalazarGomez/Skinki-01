@@ -27,14 +27,16 @@
     padding-right: 6%;
 }
 
-.parada img {
+.parada img{
     height: 450px;
     width: 400px;
     background-color: aquamarine;
     border: ridge;
     transition: filter .5s;
 }
-
+.acostado:hover img{
+    filter: blur(5px)
+}
 .parada:hover img {
     filter: blur(5px);
 }
@@ -43,16 +45,29 @@
     position: absolute;
     z-index: 10;
     top: 50%;
-    transform: translateY(-50%);
     left: 50%;
-    transform: translateX(-50%);
     display: none;
 }
 
 .parada:hover .parada-texto {
     display: block;
 }
+.acostado-texto{
+    position: absolute;
+    display: none;
+}
+.A{
+    top:61%;
+    left:70%;
+}
+.B{
+    top:100%;
+    left:70%;
+}
 
+.acostado:hover .acostado-texto{
+    display: block;
+}
 
 .acostado img {
     background-color: blue;
@@ -62,6 +77,7 @@
     margin-bottom: 5px;
     margin-left: 50px;
     border: ridge;
+    transition: filter .5s;
 }
 
 h1 {

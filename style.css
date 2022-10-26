@@ -13,6 +13,10 @@ font-family: 'Yeseva One', cursive;
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    display:flex;
+    justify-content: space-between;
+}
 .Text-center{
     text-align: center;
 }
@@ -211,6 +215,9 @@ footer a{
 .content-column span{
     color: rgba(151, 96, 67, 0.911);
 }
+.item-card{
+    width: 350px;
+}
 .prev::before{
     font-size: 30px;
     padding-top: 10px;
@@ -310,6 +317,7 @@ footer a{
     font-size: 22px;
     text-shadow: 1px 1px 2px black;
 }
+
 /*Section home curiosidades**/
 .content-img-text{
     height: 100vh;

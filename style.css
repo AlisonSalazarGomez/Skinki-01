@@ -158,7 +158,7 @@ footer a{
     margin-bottom: 50px;
 }
 .weekdays div{
-    width: calc(80vw / 7);
+    width: calc(60vw / 7);
     display: flex;
     justify-content: center;
 }
@@ -225,7 +225,7 @@ footer a{
     opacity: 0.5;
 }
 .container-calendar{
-    width: 50vw;
+    width: 60vw;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -236,15 +236,12 @@ footer a{
 
 /*Caja de descripciones para form*/
 .form-calendar{
-    width: 60vw;
-    height: 35vh;
-    background-color: #fff;
+    width: 90%;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
     border: 1px solid #8DAAA6;
-    background: url("images/68.jpeg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -259,7 +256,7 @@ footer a{
 .form-calendar input{
     color: white;
     font-family: 'Poppins', sans-serif;
-    width: 700px;
+    width: 100%;
     height: 20vh;
     background: linear-gradient(90deg, rgba(68, 107, 102, 0.31) 29%, rgba(250,250,245,0.31) 96%);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -270,18 +267,23 @@ footer a{
 }
 .calendar-anadir,.calendar-guardar{
     color: #446b66;
-    margin: 50px 0 100px 15vw;
     height: 70px;
     width: 70px;
     border-radius: 50%;
     border:1px solid #a9acab ;
 }
-.huecos{
-    display: flex;
-    flex-direction: column; 
+
+.notas{
+    width: 60vw;
+    background: url("images/71.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
 }
-.huecos span{
+.notas h2{
+    color: #eee;
     display: inline;
-    margin: 5px;
-    text-shadow:  3px 1px #fff;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px black;
 }

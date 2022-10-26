@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:wght@200&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-spam{
+    margin: auto;
+    width: 80vw;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom:50px;
+    margin-top: 50px;
+}
+.fest{
+    background: url("images/72.jpg");
+    background-size: cover;
+}
+.spotify{
+    background: url("images/71.jpg");
+    background-size: cover;
+}
+.btn-spam div{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.fest div{
+    background: rgba(241, 147, 236,0.801);
+    background: linear-gradient(90deg, rgba(241, 147, 236, 0.836) 16%, rgba(255, 213, 181,0.473) 52%, rgba(222, 238, 255, 0.801) 96%);
+}
+.spotify div{
+    background: rgba(210, 223, 255, 0.801);
+    background: linear-gradient(90deg, rgba(210, 223, 255, 0.89) 0%, rgba(255, 215, 251, 0.473) 47%, rgba(193, 255, 176, 0.801) 100%);
+}
+.btn-fest div p{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.text{
+    padding-top: 10px;
+    width: 30vw;
+}
+
+.icon span{
+    margin-left: 50px;
+    display: block;
+    color: #5f29a3;
+    font-size: 200px;
+}
+.text button{
+    color: #eee;
+    border:1px solid #eee;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 10px;
+}
+.fest .text button{
+    background: rgb(95,41,163);
+    background: linear-gradient(90deg, rgba(95,41,163,0.6867121848739496) 0%, rgba(255,213,181,0.6839110644257703) 100%);
+}
+.spotify .text button{
+    background: rgb(30,215,96);
+    background: linear-gradient(90deg, rgba(30,215,96,0.6867121848739496) 0%, rgba(224,0,202,0.6839110644257703) 100%);
+}
+.icon-spotify:before {
+    content: "\e90e";
+    color: #1ed760;
+}
+
+  

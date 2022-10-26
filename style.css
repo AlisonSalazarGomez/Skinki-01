@@ -225,3 +225,23 @@ footer a{
 .content-column span{
     color: rgba(151, 96, 67, 0.911);
 }
+
+@import url();   /***** Angie noche del 12/10 *****/
+
+section{
+    height: 400px;
+    background-image: url("./assets/img/imgsk.jpg");
+
+    }
+
+.card-1{
+    background-image: url("./58.jpeg");
+
+}
+
+.background{
+    
+}
+.item-card{
+    width: 350px;
+}

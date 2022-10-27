@@ -1,12 +1,4 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
-    background-color: #f5eadd;
-}
-
 
 .caja {
     display: flex;

@@ -14,9 +14,13 @@ font-family: 'Yeseva One', cursive;
     box-sizing: border-box;
 }
 header{
-    background-color: #eee;
+    width: 100%;
+    background-color: #fae8d7;
     display:flex;
     justify-content: space-between;
+    position:fixed;
+    z-index: 100;
+    border-bottom: 2px solid rgb(243, 237, 237);
 }
 .Text-center{
     text-align: center;
@@ -35,7 +39,7 @@ body{
 
 .a-decoration{
     text-decoration: none;
-    color: #8DAAA6;
+    color: #000000;
 }
 .background-blur{
     backdrop-filter: blur(5px);
@@ -48,7 +52,7 @@ body{
     width: 50px;
     height: 50px;
     margin: 10px;
-    box-shadow: rgba(255, 255, 255, 0.774) 0px -23px 25px 0px inset, #fffbffd2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgb(255 209 162 / 77%) 0px -23px 25px 0px inset, #fffbffd2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .btn-bubble a{
     color: rgb(119, 119, 119);
@@ -396,3 +400,52 @@ footer a{
     background: linear-gradient(150deg, rgba(224,0,193,1) 15%, rgba(77,129,212,1) 80%, rgba(30,170,215,0) 15%);
 }
 
+/*Nosotras*/
+
+#introduccion{
+    display: flex;
+    background-image: url(images/27.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    height: 700px;
+}
+
+.foto{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.flotar{
+    display:flex;
+    flex-wrap:nowrap;
+    box-sizing: content-box;
+    justify-content: space-evenly;
+}
+
+#bloque-texto{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 60%;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10% 0px 10%;
+    box-sizing: border-box
+}
+#bloque-texto h1{
+     font-size: 50px;
+    text-align: center;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;}
+
+.tituloNos {
+    color: rgb(88, 24, 88);
+
+}

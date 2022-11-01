@@ -15,7 +15,7 @@ font-family: 'Yeseva One', cursive;
 }
 header{
     width: 100%;
-    background-color: #fae8d7;
+    background-color: #d8c6ba;
     display:flex;
     justify-content: space-between;
     position:fixed;
@@ -52,7 +52,7 @@ body{
     width: 50px;
     height: 50px;
     margin: 10px;
-    box-shadow: rgb(255 209 162 / 77%) 0px -23px 25px 0px inset, #fffbffd2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: #ebe3df 0px -23px 25px 0px inset, #fffbffd2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .btn-bubble a{
     color: rgb(119, 119, 119);
@@ -121,8 +121,8 @@ body{
     border-radius: 100% 0;
 }
 .back-rosa{
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(217,222,179,0.7) 66%, rgba(148,187,233,0.7) 100%);
+    background: #d8c6ba;
+       border-top: 1px solid white;
 }
 .card-arco-arriba{
     width: 200px;
@@ -162,8 +162,9 @@ footer{
     padding-top: 20px;
 }
 footer a svg{
-    color: black;
+    color: rgb(107, 46, 46);
     margin: 17px;
+
 }
 footer a{
     border-radius: 50%;
@@ -404,12 +405,14 @@ footer a{
 
 #introduccion{
     display: flex;
-    background-image: url(images/27.jpg);
+    background-image: url(images/13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: content-box;
     height: 700px;
 }
+
+
 
 .foto{
     width: 150px;
@@ -425,14 +428,17 @@ footer a{
 
 #bloque-texto{
     background-color: whitesmoke;
-    width: 70%;
+    width: 80%;
     height: 60%;
     align-self: flex-end;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 10% 0px 10%;
-    box-sizing: border-box
+    margin-bottom: 100px;
+    padding: 25px 5% 0px 5%;
+    box-sizing: border-box;
+    text-align: justify;
 }
+
 #bloque-texto h1{
      font-size: 50px;
     text-align: center;

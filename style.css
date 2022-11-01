@@ -197,14 +197,29 @@ section{
 
     }
 
-.card-1{
-    background-image: url("./58.jpeg");
+    .container-card{            /*Angie dia del 28/10*/
+        width: 80%;
+        margin:auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-}
+    .cover-card{
+        width: auto;
+        height: auto;
+    }
 
-.background{
+
+    .btn{  /*Boton Angie*/
+        background: rgba(231, 141, 56, 0.911);
+        border: black;
+    }
     
-}
+    
+
+
+
+    
 .item-card{
     width: 350px;
 }
@@ -309,55 +324,3 @@ section{
 }
 
 
-
-
-
-
-
-
-
-@import url();
-
-*{
-    margin: 0px;
-    padding: 0px;
-
-}
-
-header{
-    display:flex;
-    justify-content: space-between;
-    background-color: aqua;
-
-}
-
-header img{
-    width: 30%;
-    
-}
-
-a{
-    text-decoration: none;
-
-}
-
-li{
-    list-style: none;
-    display:inline-block;
-    margin: 1rem;
-
-
-}
-
-section{
-    height: 400px;
-    background-image: url("./assets/img/imgsk.jpg");
-
-    
-
-}
-
-card-1{
-    background-image: url("./58.jpeg");
-
-}

@@ -219,15 +219,6 @@ footer a{
 .content-column span{
     color: rgba(151, 96, 67, 0.911);
 }
-<<<<<<< HEAD
-
-@import url();   /***** Angie noche del 12/10 *****/
-
-section{
-    height: 400px;
-    background-image: url("./assets/img/imgsk.jpg");
-
-    }
 
     .container-card{            /*Angie dia del 28/10*/
         width: 80%;
@@ -252,8 +243,6 @@ section{
 
 
     
-=======
->>>>>>> b0e46cb4b20c5ff9f41a936998c6815995f572fd
 .item-card{
     width: 350px;
 }
@@ -357,9 +346,7 @@ section{
     text-shadow: 1px 1px 2px black;
 }
 
-<<<<<<< HEAD
 
-=======
 /*Section home curiosidades**/
 .content-img-text{
     height: 100vh;
@@ -493,4 +480,3 @@ section{
     color: rgb(88, 24, 88);
 
 }
->>>>>>> b0e46cb4b20c5ff9f41a936998c6815995f572fd

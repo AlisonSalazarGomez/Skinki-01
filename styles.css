@@ -1,0 +1,47 @@
+@import url();
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+
+header img{
+    width: 30%;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+li{
+    list-style: none;
+    display:inline-block;
+    margin: 1rem;
+
+
+}
+
+section{
+    height: 400px;
+    background-image: url("./assets/img/imgsk.jpg");
+
+    
+
+}
+
+card-1{
+    background-image: url("./58.jpeg");
+
+}
+
+

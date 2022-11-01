@@ -1,17 +1,10 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
-    background-color: #f5eadd;
-}
-
 
 .caja {
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 
@@ -35,9 +28,6 @@
     border: ridge;
     transition: filter .5s;
 }
-.acostado:hover img{
-    filter: blur(5px)
-}
 .parada:hover img {
     filter: blur(5px);
 }
@@ -50,23 +40,19 @@
     display: none;
 }
 
-.parada:hover .parada-texto {
+.parada:hover .parada-texto{
     display: block;
 }
-.acostado-texto{
+.acostado-texto-A{
+    top:45%;
+    left:67%;
     position: absolute;
     display: none;
 }
-.A{
-    top:61%;
-    left:70%;
+.acostado:hover img{
+    filter: blur(5px)
 }
-.B{
-    top:100%;
-    left:70%;
-}
-
-.acostado:hover .acostado-texto{
+.acostado:hover .acostado-texto-A{
     display: block;
 }
 
@@ -88,7 +74,7 @@
 .acostado-texto-B{
     position: absolute;
     z-index: 10;
-    top: 50%;
+    top: 75%;
     transform: translateY(-50%);
     left: 70%;
     transform: translateX(-50%);
@@ -98,10 +84,11 @@
 .acostado:hover .acostado-texto-B{
     display: block;
 }
+
 .acostado-texto-C {
     position: absolute;
     z-index: 10;
-    top: 20%;
+    top: 130%;
     transform: translateY(-50%);
     left: 70%;
     transform: translateX(-50%);
@@ -114,7 +101,7 @@
 .acostado-texto-D{
         position: absolute;
         z-index: 10;
-        top: 20%;
+        top: 165%;
         transform: translateY(-50%);
         left: 70%;
         transform: translateX(-50%);

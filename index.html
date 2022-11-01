@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="btn.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
@@ -25,7 +28,7 @@
             </ul>
         </nav>
     </header>
-    <body>
+    <main>
         <section id="header-index">
             <div class="background-blur content-column">
                 <h2 class="element-inline">“Una piel bonita, Una piel sana”</h2>
@@ -35,33 +38,62 @@
             </div>
         </section>
         <section class="aling-items back-rosa" >
-            <div class="card-arco-arriba">
-                <img src="images/11.jpg" alt="error">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque molestias fugiat explicabo, facere reprehenderit, ipsa nobis magni nam voluptas consequuntur officia at voluptate culpa illo a excepturi asperiores repellendus recusandae.</p>
-                <button class="btn-redondo"><a href="" class="a-decoration">ir...</a></button>
-            </div>
-            <div class="card-arco-arriba">
-                <img src="images/12.jpg" alt="error">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste fugiat amet ullam aspernatur illo nisi, praesentium maxime ducimus, expedita eveniet est accusamus facilis rerum autem magnam cum accusantium earum!</p>
-                <button class="btn-redondo"><a href="" class="a-decoration">ir...</a></button>
-            </div>
-            <div class="card-arco-arriba">
-                <img src="images/13.jpg" alt="error">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste fugiat amet ullam aspernatur illo nisi, praesentium maxime ducimus, expedita eveniet est accusamus facilis rerum autem magnam cum accusantium earum!</p>
-                <button class="btn-redondo"><a href="" class="a-decoration">ir...</a></button>
-            </div>
+            <aside class="MakeUp-Levels MP-A">
+                <div>
+                    <h3>Nuevos tutoriales: nivel basico</h3>
+                    <p>Lorem ipsum dolor sit amet </p>
+                </div>
+                <img src="icon/1.png" alt="error">
+            </aside>
+            <aside class="MakeUp-Levels MP-B">
+                <div>
+                    <h3>Nuevos tutoriales: nivel intermedio</h3>
+                    <p>Lorem ipsum dolor sit amet </p>
+                </div>
+                <img src="icon/2.png" alt="error">
+            </aside>
+            <aside class="MakeUp-Levels MP-C">
+                <div>
+                    <h3>Nuevos tutoriales: nivel avanzado</h3>
+                    <p>Lorem ipsum dolor sit amet </p>
+                </div>
+                <img src="icon/5.png" alt="error">
+            </aside>
         </section>
         <section class="content-img-text">
-            <div class="content-column">
-                <span>S</span><span>K</span><span>I</span><span>N</span>
+            <img src="icon/6.jpg" alt="">
+            <aside>
+                <h3>¿Sabías que...?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores nisi perspiciatis cupiditate at ea suscipit dolore ipsum doloribus obcaecati voluptatum sunt fugit amet quos iusto iste, doloremque corporis eligendi!</p>
+                <a href="curiosidades.html"><button>Leer mas!</button></a>
+            </aside>
+        </section>  
+        <section class="btn-spam fest">
+            <div> 
+                <aside class="text">
+                    <h2>NUEVOS VIDEOS!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae adipisci expedita possimu</p>
+                    <button class="1">Ir a tutoriales</button>
+                </aside>
+                <aside class="icon">
+                    <span class="material-symbols-outlined">youtube_activity</span>
+                </aside>
             </div>
-            <img src="images/53.jfif" alt="error">
-            <div class="content-column">
-                <span>S</span><span>K</span><span>I</span><span>N</span>
-            </div>   
-        </section>        
-    </body>
-    <footer class="aling-items">
+        </section>  
+        <section class="btn-spam spotify">
+            <div> 
+                <aside class="text">
+                    <h2>PLAYLIST DE SPOTIFY!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae adipisci expedita possimu</p>
+                    <button class="2">Escuchar musica</button>
+                </aside>
+                <aside class="icon">
+                    <span><img src="icon/7.png" alt="" style="width:200px"></span>
+                </aside>
+            </div>
+        </section>   
+    </main>
+    <footer class="aling-items back-rosa">
 
         <a href="">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -79,5 +111,6 @@
         </svg>
         </a>
     </footer>
+    <script src="JS/botones.js"></script>
 </body>
 </html>

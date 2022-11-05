@@ -59,10 +59,11 @@ body{
 }
 .element-inline{
     display: inline;
+    font-weight: bold;
 }
 #header-index{
     height: 80vh;
-    background: url("images/73.png");
+    background: url("images/22.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -86,14 +87,15 @@ body{
     padding: 10px;
 }
 .MP-A{
-    background-color: rgb(250, 242, 135);
+    background-color:   rgb(204, 145, 145);
 }
 .MP-B{
     background-color: #eee;
 }
 .MP-C{
-    background-color: #d373ff;
+    background-color:   rgb(204, 145, 145);
 }
+
 .MakeUp-Levels div{
     padding-top: 50px;
     width: 50%;
@@ -105,6 +107,7 @@ body{
     margin: 20px 0 20px 10px;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
     transition: all 300ms;
 }
 .MakeUp-Levels img:hover{
@@ -354,12 +357,12 @@ footer a{
     justify-content: space-evenly;
 }
 .content-img-text img{
-    margin-top: 60px;
-    width: 500px;
-    height: 500px;
-    animation: skew 3s infinite;
-    transform: skew(10deg);
-    animation-direction: alternate;
+    margin-top: 148px;
+    width: 440px;
+    height: 440px;
+    border: 10px solid  #d8c6ba;
+    border-radius: 50%;
+ 
 }
 @keyframes skew {
     0% {
@@ -371,7 +374,7 @@ footer a{
 }
 .content-img-text aside{
     width: 35vw;
-    margin-top: auto;
+    margin-top: 313px;
     margin-bottom: auto;
 }
 .content-img-text aside button{
@@ -389,6 +392,7 @@ footer a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: #eee;
+    height: 100 vh;
 }
 #Descubre section{
     margin-top: 50px;

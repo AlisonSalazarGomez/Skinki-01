@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Poppins:wght@200&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .color-nav{
     background: #e8d2d2d2;
@@ -26,7 +27,7 @@ body{
 }
 
 #pc{
-    background-image: url("images/23.jpg");
+    background-image: url("images/9.jpg");
     position: relative; 
     background-size: cover;
     background-attachment: fixed;

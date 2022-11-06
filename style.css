@@ -18,8 +18,8 @@ header{
     background-color: #d8c6ba;
     display:flex;
     justify-content: space-between;
-    position:fixed;
-    z-index: 100;
+    position: sticky;
+    top: 0px;
     border-bottom: 2px solid rgb(243, 237, 237);
 }
 .Text-center{
@@ -92,7 +92,7 @@ body{
     background-color: #eee;
 }
 .MP-C{
-    background-color: #d373ff;
+    background-color:#ebe3df;
 }
 .MakeUp-Levels div{
     padding-top: 50px;
@@ -236,6 +236,10 @@ footer a{
     .btn{  /*Boton Angie*/
         background: rgba(231, 141, 56, 0.911);
         border: black;
+    }
+
+    .card{
+        position: static;
     }
     
     
@@ -454,7 +458,7 @@ footer a{
 #bloque-texto{
     background-color: whitesmoke;
     width: 80%;
-    height: 60%;
+    height: 70%;
     align-self: flex-end;
     margin-left: auto;
     margin-right: auto;

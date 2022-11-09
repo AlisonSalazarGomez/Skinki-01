@@ -1,8 +1,9 @@
 .videos{
-    width: 70%;
-    height: 100%;
+    width: 43%;
+    height: 82%;
     margin: 20px;
     padding: 20px;
+    border-radius: 0% 20% 0% 20%;
 }
 
 *{
@@ -22,9 +23,4 @@
     background-color: rgba(238, 238, 238, 0.178);
     width: 100%;
     backdrop-filter: blur(15px);
-}
-body{
-    background-image: url(./images/fondonube1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }

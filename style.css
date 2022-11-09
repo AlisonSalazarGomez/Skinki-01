@@ -14,9 +14,13 @@ font-family: 'Yeseva One', cursive;
     box-sizing: border-box;
 }
 header{
-    background-color: #eee;
+    width: 100%;
+    background-color: #d8c6ba;
     display:flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    border-bottom: 2px solid rgb(243, 237, 237);
 }
 .Text-center{
     text-align: center;
@@ -35,7 +39,7 @@ body{
 
 .a-decoration{
     text-decoration: none;
-    color: #8DAAA6;
+    color: #000000;
 }
 .background-blur{
     backdrop-filter: blur(5px);
@@ -48,17 +52,18 @@ body{
     width: 50px;
     height: 50px;
     margin: 10px;
-    box-shadow: rgba(255, 255, 255, 0.774) 0px -23px 25px 0px inset, #fffbffd2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: #ebe3df 0px -23px 25px 0px inset, #fffbffd2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .btn-bubble a{
     color: rgb(119, 119, 119);
 }
 .element-inline{
     display: inline;
+    font-weight: bold;
 }
 #header-index{
     height: 80vh;
-    background: url("images/73.png");
+    background: url("images/22.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -82,14 +87,15 @@ body{
     padding: 10px;
 }
 .MP-A{
-    background-color: rgb(250, 242, 135);
+    background-color:   rgb(204, 145, 145);
 }
 .MP-B{
     background-color: #eee;
 }
 .MP-C{
-    background-color: #d373ff;
+    background-color:   rgb(204, 145, 145);
 }
+
 .MakeUp-Levels div{
     padding-top: 50px;
     width: 50%;
@@ -101,6 +107,7 @@ body{
     margin: 20px 0 20px 10px;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
     transition: all 300ms;
 }
 .MakeUp-Levels img:hover{
@@ -117,8 +124,8 @@ body{
     border-radius: 100% 0;
 }
 .back-rosa{
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(217,222,179,0.7) 66%, rgba(148,187,233,0.7) 100%);
+    background: #d8c6ba;
+       border-top: 1px solid white;
 }
 .card-arco-arriba{
     width: 200px;
@@ -158,8 +165,9 @@ footer{
     padding-top: 20px;
 }
 footer a svg{
-    color: black;
+    color: rgb(107, 46, 46);
     margin: 17px;
+
 }
 footer a{
     border-radius: 50%;
@@ -214,6 +222,34 @@ footer a{
 .content-column span{
     color: rgba(151, 96, 67, 0.911);
 }
+
+    .container-card{            /*Angie dia del 28/10*/
+        width: 80%;
+        margin:auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cover-card{
+        width: auto;
+        height: auto;
+    }
+
+
+    .btn{  /*Boton Angie*/
+        background: rgba(231, 141, 56, 0.911);
+        border: black;
+    }
+
+    .card{
+        position: static;
+    }
+    
+    
+
+
+
+    
 .item-card{
     width: 350px;
 }
@@ -317,6 +353,7 @@ footer a{
     text-shadow: 1px 1px 2px black;
 }
 
+
 /*Section home curiosidades**/
 .content-img-text{
     height: 100vh;
@@ -324,12 +361,12 @@ footer a{
     justify-content: space-evenly;
 }
 .content-img-text img{
-    margin-top: 60px;
-    width: 500px;
-    height: 500px;
-    animation: skew 3s infinite;
-    transform: skew(10deg);
-    animation-direction: alternate;
+    margin-top: 148px;
+    width: 440px;
+    height: 440px;
+    border: 10px solid  #d8c6ba;
+    border-radius: 50%;
+ 
 }
 @keyframes skew {
     0% {
@@ -341,7 +378,7 @@ footer a{
 }
 .content-img-text aside{
     width: 35vw;
-    margin-top: auto;
+    margin-top: 313px;
     margin-bottom: auto;
 }
 .content-img-text aside button{
@@ -359,6 +396,7 @@ footer a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: #eee;
+    height: 100 vh;
 }
 #Descubre section{
     margin-top: 50px;
@@ -404,4 +442,58 @@ footer a{
 .card-body .btn{
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(217,222,179,0.7) 66%, rgba(148,187,233,0.7) 100%);
+}
+/*Nosotras*/
+
+#introduccion{
+    display: flex;
+    background-image: url(images/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    height: 700px;
+}
+
+
+
+.foto{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.flotar{
+    display:flex;
+    flex-wrap:nowrap;
+    box-sizing: content-box;
+    justify-content: space-evenly;
+}
+
+#bloque-texto{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 70%;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 25px 5% 0px 5%;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+#bloque-texto h1{
+     font-size: 50px;
+    text-align: center;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;}
+
+.tituloNos {
+    color: rgb(88, 24, 88);
+
 }

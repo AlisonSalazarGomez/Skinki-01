@@ -5,60 +5,6 @@
    
 }
 
-.tituloNos{
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 80px;
-}
-body{
-    background-color: #f5eff2;
-}
-
-.nosotras{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: rgb(49, 52, 52);
-    font-size: 20px;
-    text-align: left!important;
-    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(217,222,179,0.7) 66%, rgba(148,187,233,0.7) 100%);
-   
-}
-
-.containerNos{
-    width: 100%;
-    padding-right: var(--bs-gutter-x,5.99rem);
-    padding-left: var(--bs-gutter-x,5.99rem);
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
-    
-
-}
-
-.blurImgOb{
-    backdrop-filter: blur(1px);
-    overflow: hidden;
-    background-size: cover;
-    background-color:  rgba(47, 44, 44, 0.124);
-}
-
-.objetivo{ 
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: rgba(49, 50, 50, 0.765);
-    font-size: 20px;
-    text-align: left!important;
-}
-
-.conteinerObjetivo{
-   
-    width: 100%;
-    padding-right: var(--bs-gutter-x,5.99rem);
-    padding-left: var(--bs-gutter-x,5.99rem);
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
-}
 
 /* CARDS*/
 .containerCards{
@@ -66,53 +12,51 @@ body{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(images/2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: transparent;
 }
 .coverCard img{
     width: 100%;
-    height: 180px;
 }
 
-.card{
-    width: 17%;
-    margin: 20px 0 20px 180px;
+.cardNosotras{
+    width: 25%;
+    height: 50%;
+    margin: 20px 0 25px 80px;
     padding: 20px;
     box-shadow: 20px 20px 50px rgba(92, 74, 74, 0.377);
-    background: #ede7eab7; 
+    background: #ebe3df; 
     border-left: 1px solid #3230370b;
     border-top:  1px solid #27252e18;
     border-radius: 15px;
-    backdrop-filter: blur(55px);
     transition: all 300ms;
+    text-align: justify;
 }
 
-.card:hover{
-    transform: translateY(-20px);
+.cardNosotras:hover{
+    transform: translateY(-25px);
 }
 
-.card:hover .coverCard{
+.cardNosotras:hover .coverCard{
     transform: scale(1.1);
 }
 
 .coverCard{
     width: 100%;
-    height: 180px;
-    border-radius: 15%;
+    height: 250px;
+    border-radius: 50%;
     overflow: hidden;
 }
 
 
 
-.card h2{
+.cardNosotras h2{
     font-size: 20px;
     font-weight: 300;
     margin-top: 20px;
     color: rgba(28, 24, 25, 0.802);
 }
 
-.card p{
+.cardNosotras p{
     margin-top: 20px;
     font-size: 14px;
     font-weight: 300;
@@ -120,7 +64,7 @@ body{
     letter-spacing: 0.5px;
 }
 
-.card hr{
+.cardNosotras hr{
     margin-top: 30px;
     border: none;
     height: 0.1px;

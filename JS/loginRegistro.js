@@ -82,7 +82,7 @@ formularioRegistroVal.addEventListener("submit", e=>{
     parrafoR.innerHTML = "";
 
     if(nombreR.value.length <6){
-        warningsR += 'Nombre no valido <br>'
+        warningsR += 'Fecha no valida <br>'
         entrar = true;
     }
     

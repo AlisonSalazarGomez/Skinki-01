@@ -17,11 +17,16 @@ header{
     width: 100%;
     background-color: #d8c6ba;
     display:flex;
-    justify-content: space-between;
     position: sticky;
     top: 0px;
     border-bottom: 2px solid rgb(243, 237, 237);
     align-items: center;
+}
+header h1{
+    margin-left: 20px;
+}
+#header-list{
+    margin-left: auto;
 }
 .Text-center{
     text-align: center;
@@ -420,19 +425,18 @@ footer a{
     font-family: 'Libre Baskerville', serif;
 }
 .descubre{
-    width:30vw;
-    height:50vh;
+    width:35vw;
+    height:60vh;
     border-radius: 20px;
     padding:20px;
-    background: rgb(30,170,215);
-    background: linear-gradient(50deg, rgba(30,170,215,0) 15%, rgba(77,129,212,1) 10%, rgb(255, 137, 47) 100%);
+    background: rgb(204, 145, 145);
 }
 .descubre p{
     text-align: justify;
 }
 #advertencias article{
-    background: rgb(224,0,193);
-    background: linear-gradient(150deg, rgba(224,0,193,1) 15%, rgba(77,129,212,1) 80%, rgba(30,170,215,0) 15%);
+    color: rgb(107, 46, 46);
+    background: #d8c6ba;
 }
 
 /*Nosotras*/

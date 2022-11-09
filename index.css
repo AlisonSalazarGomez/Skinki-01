@@ -27,11 +27,13 @@ body{
 }
 
 #pc{
-    background-image: url("gif/2.gif");
+    background-image: url("images/9.jpg");
     position: relative; 
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
+
+    
 } 
 
 .blur{

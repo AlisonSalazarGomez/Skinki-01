@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:wght@200&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #eee;
+    display:flex;
+    justify-content: space-between;
+}
+.Text-center{
+    text-align: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.aling-items{
+    display: flex;
+    justify-content:space-evenly;
+}
+.li-decoration{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.a-decoration{
+    text-decoration: none;
+    color: #8DAAA6;
+}
+.background-blur{
+    backdrop-filter: blur(5px);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+.btn-bubble{
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    box-shadow: rgba(255, 255, 255, 0.774) 0px -23px 25px 0px inset, #fffbffd2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btn-bubble a{
+    color: rgb(119, 119, 119);
+}
+.element-inline{
+    display: inline;
+}
+#header-index{
+    height: 80vh;
+    background: url("images/73.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#footer{
+    height: 100px;
+    padding-top: 20px;
+}
+#footer a svg{
+    color: black;
+    margin: 17px;
+}
+#footer a{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    backdrop-filter: blur(15px);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 1),8px 8px 15px rgb(0, 0, 0, 0.2), inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+
+.back-rosa{
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(217,222,179,0.7) 66%, rgba(148,187,233,0.7) 100%);
+}

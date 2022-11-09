@@ -396,3 +396,12 @@ footer a{
     background: linear-gradient(150deg, rgba(224,0,193,1) 15%, rgba(77,129,212,1) 80%, rgba(30,170,215,0) 15%);
 }
 
+/************TUTORIALES****************/
+.col-md-4 .card{
+    padding-top: 8px;
+}
+
+.card-body .btn{
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(217,222,179,0.7) 66%, rgba(148,187,233,0.7) 100%);
+}

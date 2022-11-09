@@ -8,3 +8,8 @@ for (var i = 0; i < inputs.length; i++){
         }
     })
 }
+let input = document.getElementById("formularioSubmit");
+input.addEventListener("click",(e)=>{
+    e.preventDefault;
+    window.location.assign('../cuidado-de-la-piel.html');
+})

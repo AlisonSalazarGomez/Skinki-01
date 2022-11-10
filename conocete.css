@@ -35,7 +35,7 @@
 .parada-texto {
     position: absolute;
     z-index: 10;
-    top: 41%;
+    top: 45vh;
     left: 28%;
     display: none;
     width: 210px;
@@ -46,7 +46,7 @@
     display: block;
 }
 .acostado-texto-A{
-    top: 34%;
+    top: 43vh;
     left: 66%;
     position: absolute;
     display: none;
@@ -57,7 +57,7 @@
 .parada-texto-B {
     position: absolute;
     z-index: 10;
-    top: 166%;
+    top: 200vh;
     left: 28%;
     display: none;
     width: 210px;
@@ -89,9 +89,9 @@
 .acostado-texto-B{
     position: absolute;
     z-index: 10;
-    top: 79%;
+    top: 95vh;
     transform: translateY(-50%);
-    left: 72%;
+    left: 75vw;
     transform: translateX(-50%);
     display: none;
     width: 291px;
@@ -105,9 +105,9 @@
 .acostado-texto-C {
     position: absolute;
     z-index: 10;
-    top: 157%;
+    top: 185vh;
     transform: translateY(-50%);
-    left: 74%;
+    left: 75vw;
     transform: translateX(-50%);
     display: none;
     text-align: justify;
@@ -120,12 +120,12 @@
 .acostado-texto-D{
         position: absolute;
         z-index: 10;
-        top: 202%;
+        top: 240vh;
         transform: translateY(-50%);
-        left: 74%;
+        left: 75vw;
         transform: translateX(-50%);
         display: none;
-        width: 425px;
+        width: 405px;
         text-align: justify;
     }
     

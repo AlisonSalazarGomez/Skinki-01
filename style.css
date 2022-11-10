@@ -440,7 +440,7 @@ footer a{
 }
 .descubre{
     width:35vw;
-    height:40vh;
+    height:60vh;
     border-radius: 20px;
     padding:20px;
     background: rgb(204, 145, 145);
@@ -461,7 +461,7 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: content-box;
-    height: 700px;
+    height: 450px;
 }
 
 
@@ -600,7 +600,7 @@ footer a{
     'GRAD' 0,
     'opsz' 48
 }
-.spam-content a{
+.spam-content a, .user-content a{
     padding: 10px;
     border-radius: 20px;
     border: 1px solid brown;

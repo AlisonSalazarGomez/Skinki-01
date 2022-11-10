@@ -27,6 +27,7 @@ header h1{
 }
 #header-list{
     margin-left: auto;
+    
 }
 .Text-center{
     text-align: center;
@@ -242,13 +243,13 @@ footer a{
     }
 
 
-    .btn{  /*Boton Angie*/
-        background: rgba(231, 141, 56, 0.911);
+    .btn-naranja{  /*Boton Angie*/
+        background: rgba(228, 186, 147, 0.911);
         border: black;
-    }
-
-    .card{
-        position: static;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
     }
     
     

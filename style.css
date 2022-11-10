@@ -461,9 +461,8 @@ footer a{
     background-size: cover;
     box-sizing: content-box;
     padding-top: 50px;
-    height: 700px;
     flex-direction: column;
-    height: 450px;
+     height: 700px;
 }
 
 

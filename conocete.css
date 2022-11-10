@@ -4,9 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    margin-bottom: 12vh;
 }
-
 
 #pieles {
     height: 500px;
@@ -22,11 +21,12 @@
 }
 
 .parada img{
-    height: 450px;
-    width: 400px;
+    height: 601px;
+    width: 443px;
     background-color: aquamarine;
     border: ridge;
     transition: filter .5s;
+    position: static;
 }
 .parada:hover img {
     filter: blur(15px);
@@ -35,19 +35,37 @@
 .parada-texto {
     position: absolute;
     z-index: 10;
-    top: 50%;
-    left: 50%;
+    top: 45vh;
+    left: 28%;
     display: none;
+    width: 210px;
+    text-align: center;
 }
 
 .parada:hover .parada-texto{
     display: block;
 }
 .acostado-texto-A{
-    top:45%;
-    left:67%;
+    top: 43vh;
+    left: 66%;
     position: absolute;
     display: none;
+    width: 274px;
+    text-align: justify;
+
+}
+.parada-texto-B {
+    position: absolute;
+    z-index: 10;
+    top: 200vh;
+    left: 28%;
+    display: none;
+    width: 210px;
+    text-align: center;
+}
+
+.parada:hover .parada-texto-B{
+    display: block;
 }
 .acostado:hover img{
     filter: blur(15px)
@@ -58,27 +76,26 @@
 
 .acostado img {
     background-color: blue;
-    width: 90%;
-    height: 206px;
+    width: 110%;
+    height: 284px;
     margin-top: 25px;
     margin-bottom: 5px;
     margin-left: 50px;
     border: ridge;
     transition: filter .5s;
+    position: static;
 }
 
-.acostado:hover .acostado-texto-A {
-    display: block;
-
-}
 .acostado-texto-B{
     position: absolute;
     z-index: 10;
-    top: 75%;
+    top: 95vh;
     transform: translateY(-50%);
-    left: 70%;
+    left: 75vw;
     transform: translateX(-50%);
     display: none;
+    width: 291px;
+    text-align: justify;
    
 }
 .acostado:hover .acostado-texto-B{
@@ -88,11 +105,13 @@
 .acostado-texto-C {
     position: absolute;
     z-index: 10;
-    top: 130%;
+    top: 185vh;
     transform: translateY(-50%);
-    left: 70%;
+    left: 75vw;
     transform: translateX(-50%);
     display: none;
+    text-align: justify;
+    width: 415px;
 }
 
 .acostado:hover .acostado-texto-C {
@@ -101,11 +120,13 @@
 .acostado-texto-D{
         position: absolute;
         z-index: 10;
-        top: 165%;
+        top: 240vh;
         transform: translateY(-50%);
-        left: 70%;
+        left: 75vw;
         transform: translateX(-50%);
         display: none;
+        width: 405px;
+        text-align: justify;
     }
     
 .acostado:hover .acostado-texto-D {
@@ -113,12 +134,13 @@
 
         }
 h1 {
+  
     font-weight: 400px;
     text-align: center;
     font-size: 40px;  
 }
 
-h2 {
+h3 {
     margin: 0%;
     display: inline;
 }

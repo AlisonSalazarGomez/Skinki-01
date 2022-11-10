@@ -1,0 +1,39 @@
+[
+    {
+        "id_usuario": "1",
+        "Tipo_piel":"Mixta",
+        "Nivel_rutina":"Basica",
+        "Alergia":"Sol"
+    },
+    {
+        "id_usuario": "2",
+        "Tipo_piel":"Grasa",
+        "Nivel_rutina":"Intermedia",
+        "Alergia":"Sol"
+    },
+    {
+        "id_usuario": "3",
+        "Tipo_piel":"Seca",
+        "Nivel_rutina":"Basica",
+        "Alergia":"Sol"
+    },
+    {
+        "id_usuario": "4",
+        "Tipo_piel":"Seca",
+        "Nivel_rutina":"Basica",
+        "Alergia":"Sol"
+    },
+    {
+        "id_usuario": "5",
+        "Tipo_piel":"Mixta",
+        "Nivel_rutina":"Intermedia",
+        "Alergia":"Sol"
+    },
+    {
+        "id_usuario": "6",
+        "Tipo_piel":"Mixta",
+        "Nivel_rutina":"Avanzada",
+        "Alergia":"Sol"
+    }
+    
+]

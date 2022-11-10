@@ -17,10 +17,17 @@ header{
     width: 100%;
     background-color: #d8c6ba;
     display:flex;
-    justify-content: space-between;
     position: sticky;
     top: 0px;
     border-bottom: 2px solid rgb(243, 237, 237);
+    align-items: center;
+}
+header h1{
+    margin-left: 20px;
+}
+#header-list{
+    margin-left: auto;
+    
 }
 .Text-center{
     text-align: center;
@@ -164,7 +171,7 @@ footer{
     height: 100px;
     padding-top: 20px;
 }
-footer a svg{
+footer a svg, header svg{
     color: rgb(107, 46, 46);
     margin: 17px;
 
@@ -179,7 +186,7 @@ footer a{
 /*Calendar*/
 .month i{
     text-align: center;
-    color: #446b66;
+    color: #c9ada0;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -200,7 +207,7 @@ footer a{
     width: 50px;
     height: 50px;
     text-align: center;
-    background: #8DAAA6;
+    background: #c9ada0;
     border-radius:50% ;
     padding-top: 10px;
 
@@ -228,6 +235,7 @@ footer a{
         margin:auto;
         display: flex;
         flex-wrap: wrap;
+        position:static;
     }
 
     .cover-card{
@@ -236,14 +244,24 @@ footer a{
     }
 
 
-    .btn{  /*Boton Angie*/
-        background: rgba(231, 141, 56, 0.911);
+    .btn-naranja{  /*Boton Angie*/
+        background: rgba(228, 186, 147, 0.911);
         border: black;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
     }
 
-    .card{
+    .px-2 {
+        padding-right: 0.5rem!important;
+        padding-left: 0.5rem!important;
         position: static;
     }
+    
+
+    
+
     
     
 
@@ -296,6 +314,7 @@ footer a{
     padding-top: 100px;
 }
 .main-calendar{
+    padding-bottom: 100px;
     background-color: #eeeeee;
 }
 
@@ -312,8 +331,8 @@ footer a{
     justify-content: center;
 }
 .form-calendar label{
-    color:#446b66;
-    border:#446b66;
+    color:#c9ada0;
+    border:#c9ada0;
     font-size: 20px;
     font-weight: bold;
     text-shadow:  3px 1px rgb(0, 0, 0);
@@ -340,11 +359,12 @@ footer a{
 
 .notas{
     width: 60vw;
-    background: url("images/71.jpg");
+    background: #6e5b53;
     background-size: cover;
     border-radius: 20px;
     margin: auto;
     padding: 20px;
+    margin-top: 50px;
 }
 .notas h2{
     color: #eee;
@@ -419,19 +439,18 @@ footer a{
     font-family: 'Libre Baskerville', serif;
 }
 .descubre{
-    width:30vw;
-    height:50vh;
+    width:35vw;
+    height:60vh;
     border-radius: 20px;
     padding:20px;
-    background: rgb(30,170,215);
-    background: linear-gradient(50deg, rgba(30,170,215,0) 15%, rgba(77,129,212,1) 10%, rgb(255, 137, 47) 100%);
+    background: rgb(204, 145, 145);
 }
 .descubre p{
     text-align: justify;
 }
 #advertencias article{
-    background: rgb(224,0,193);
-    background: linear-gradient(150deg, rgba(224,0,193,1) 15%, rgba(77,129,212,1) 80%, rgba(30,170,215,0) 15%);
+    color: rgb(107, 46, 46);
+    background: #d8c6ba;
 }
 
 /*Nosotras*/
@@ -444,6 +463,7 @@ footer a{
     padding-top: 50px;
     height: 700px;
     flex-direction: column;
+    height: 450px;
 }
 
 
@@ -495,4 +515,115 @@ footer a{
 .tituloNos {
     color: rgb(167 112 73);
 
+}
+
+.tituloMakeUp{
+    text-align: center;
+}
+
+.containerCardsMakeUp{
+    width: 100%;
+}
+.coverCardMakeUp img{
+    width: 100%;
+    height: 50%;
+}
+
+.cardMakeUp{
+    width: 30%;
+    margin: 20px 0 20px 170px;
+    display: inline-grid;
+}
+
+.coverCardMakeUp{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.liDecorationM{
+    list-style-type: none;
+    margin-top: -205px;
+}
+
+.decorationMakeUp{
+    text-decoration: none;
+    color: #000000;
+}
+
+/****************estilos User************************************/
+#main-user{
+    display: flex;
+    background-color: #c9ada01f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+#main-user h1, #main-user h2{
+    color: #742b2b;
+    margin-top: 10px;
+}
+.inline{
+    display: inline;
+}
+.user-content{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fondo-user{
+    width: 30vw;
+    height: 100vh;
+    background: url('gif/2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 8px solid #c9ada0;
+}
+.descripcion-content, .spam-content{
+    width: 300px;
+}
+#descripcion{
+    display: flex;
+}
+#descripcion aside{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.user-content span{
+    font-weight:bold;
+}
+.user-content span, .user-content p, .user-content li{
+    font-size: 13px ;
+    margin-bottom: 10px;
+}
+
+.user-content .material-symbols-outlined {
+    font-size: 30px;
+    color: #742b2b;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.spam-content a, .user-content a{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    background-color: #c9ada0 ;
+    color: white;
+    text-decoration: none;
+}
+.btn-fondo{
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left:400px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
 }

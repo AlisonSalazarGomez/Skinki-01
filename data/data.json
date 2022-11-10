@@ -1,0 +1,50 @@
+
+    [
+        {
+            "id":1,
+            "Nombre_completo" :"Andrea Guaymas",
+            "Correo":"andrejoanaguaymas@gmail.com",
+            "fecha_nacimiento": "19121997",
+            "edad": "20",
+            "password":"40788583"
+        },
+        {
+            "id":2,
+            "Nombre_completo" :"Kristel Sedano",
+            "Correo":"krissc687@gmail.com",
+            "fecha_nacimiento": "17082003",
+            "edad": "20",
+            "password":"94822620"
+        },
+        {
+            "id":3,
+            "Nombre_completo" :"Belen Nieto",
+            "Correo":"belen.nieto44@gmail.com",
+            "fecha_nacimiento": "26061993",
+            "edad": "20",
+            "password":"37755290"
+        },
+        {
+            "id":4,
+            "Nombre_completo" :"Alison Salazar",
+            "Correo":"alison.salazar662@gmail.com",
+            "fecha_nacimiento": "20020606",
+            "edad": "20",
+            "password":"95562466"
+        },
+        {
+            "id":5,
+            "Nombre_completo" :"Maria Eva Medina",
+            "Correo":"balderrama98m@gmail.com",
+            "fecha_nacimiento": "14071998",
+            "edad": "20",
+            "password":"41395720"
+        },{
+            "id":6,
+            "Nombre_completo" :"Angelica Garay",
+            "Correo":"garay.s.mariaangelica@gmail.com",
+            "fecha_nacimiento": "22041992",
+            "edad": "20",
+            "password":"18905964"
+        }
+    ]

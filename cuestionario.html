@@ -12,12 +12,16 @@
 </head>
 <body>
   <header>
+    <svg id="usuario" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16" class="bi ">
+      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+      <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+    </svg>
     <nav class="aling-items">
         <button class="btn-bubble"><a href="loginRegistro.html" class="a-decoration">Log in</a></button>
             <button class="btn-bubble"><a href="loginRegistro.html" class="a-decoration">Sing up</a></button>
     </nav>
-    <h1 class="Text-center">SKINKI</h1>
-    <nav>
+    <h1>SKINKI</h1>
+    <nav id="header-list">
         <ul class="aling-items">
             <li class="li-decoration"><a href="index.html" class="a-decoration">HOME</a></li> 
             <li class="li-decoration"><a href="conocete.html" class="a-decoration">Conocete</a></li> 
@@ -37,22 +41,31 @@
             <section class="formularioFlex">
               
             <input type="text" class="formularioInput">
-            <label for="" class="formularioLabel" >Titulo ejemplo</label>
-            <input type="text" class="formularioInput">
-            <label for="" class="formularioLabel" >Titulo ejemplo</label>
-            <input type="text" class="formularioInput">
-            <label for="" class="formularioLabel" >Titulo ejemplo</label>
+            <label for="" class="formularioLabel" >Alergia</label>
+            <input type="datetime" class="formularioInput">
+            <label for="" class="formularioLabel" >Fecha de nacimiento</label>
+
+            <section class="formularioInput"  style="display: block;" class="body current" id="wizard-p-1" role="tabpanel" aria-labelledby="wizard-h-1" aria-hidden="false">
+    
+              <span class="select_label">
+                <select class="lista" data-custom="true" data-msg-required="Required field" required="required" name="participation[promo_response_attributes][response_11731]" id="participation_promo_response_attributes_response_11731" aria-required="true" class="step_error">
+                  <option class="formularioLabel" value="">Niveles</option>
+                  <option class="option" value="opcion1">Basica</option>
+                  <option class="option" value="opcion2">Intermedio</option>
+                  <option class="option" value="opcion3">Avanzado</option>
+                </select>
+              </span>
+    
+            </section>
     
             <section class="formularioInput"  style="display: block;" class="body current" id="wizard-p-1" role="tabpanel" aria-labelledby="wizard-h-1" aria-hidden="false">
     
               <span class="select_label">
                 <select class="lista" data-custom="true" data-msg-required="Required field" required="required" name="participation[promo_response_attributes][response_11731]" id="participation_promo_response_attributes_response_11731" aria-required="true" class="step_error">
-                  <option class="formularioLabel" value="">Selecionar</option>
-                  <option class="option" value="opcion1">Opcion1</option>
-                  <option class="option" value="opcion2">Opcion2</option>
-                  <option class="option" value="opcion3">Opcion3</option>
-                  <option class="option" value="opcion4">Opcion4</option>
-                  <option class="option" value="opcion5">Opcion5</option>
+                  <option class="formularioLabel" value="">Tipo de piel</option>
+                  <option class="option" value="opcion1">Seca</option>
+                  <option class="option" value="opcion2">Grasa</option>
+                  <option class="option" value="opcion3">Mixta</option>
                 </select>
               </span>
     
@@ -85,6 +98,12 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="cuestionario.js"></script>
+    <script>
+      const svgUser = document.getElementById("usuario");
+      svgUser.addEventListener("click", (e)=>{
+      window.location = "user.html";
+      })
 
+  </script>
 </body>
 </html>

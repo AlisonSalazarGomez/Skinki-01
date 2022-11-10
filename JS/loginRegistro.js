@@ -68,7 +68,6 @@ function registro(){
 
 const nombreR = document.getElementById("nombreR");
 const emailR = document.getElementById("emailR");
-const usuarioR = document.getElementById("usuarioR");
 const contrasenaR = document.getElementById("contrasenaR");
 const formularioRegistroVal = document.getElementById("formularioRegistroVal");
 const parrafoR = document.getElementById("warningsR");
@@ -82,7 +81,7 @@ formularioRegistroVal.addEventListener("submit", e=>{
     parrafoR.innerHTML = "";
 
     if(nombreR.value.length <6){
-        warningsR += 'Fecha no valida <br>'
+        warningsR += 'Nombre no valido <br>'
         entrar = true;
     }
     
@@ -91,10 +90,6 @@ formularioRegistroVal.addEventListener("submit", e=>{
         entrar = true;
     }
     
-    if(usuarioR.value.length <4){
-        warningsR += 'Usuario no valido <br>'
-        entrar = true;
-    }
 
     if(contrasenaR.value.length <8){
         warningsR += 'Contraseña no valida <br>'

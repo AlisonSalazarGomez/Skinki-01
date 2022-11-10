@@ -235,6 +235,7 @@ footer a{
         margin:auto;
         display: flex;
         flex-wrap: wrap;
+        position:static;
     }
 
     .cover-card{
@@ -251,6 +252,16 @@ footer a{
         text-decoration: none;
         color: #fff;
     }
+
+    .px-2 {
+        padding-right: 0.5rem!important;
+        padding-left: 0.5rem!important;
+        position: static;
+    }
+    
+
+    
+
     
     
 

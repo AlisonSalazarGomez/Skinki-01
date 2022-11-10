@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:wght@200&family=Yeseva+One&display=swap');
+
+/*
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive;
+#c9ada0
+#beab9b
+#d8c6ba
+#ebe3df
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-user{
+    display: flex;
+    background-color: #c9ada01f;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main-user h1, #main-user h2{
+    color: #742b2b;
+    margin-top: 10px;
+}
+.inline{
+    display: inline;
+}
+.user-content{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fondo{
+    width: 30vw;
+    height: 100vh;
+    background: url('gif/2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 8px solid #c9ada0;
+}
+.descripcion-content, .spam-content{
+    width: 300px;
+}
+#descripcion{
+    display: flex;
+}
+#descripcion aside{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.user-content span{
+    font-weight:bold;
+}
+.user-content span, .user-content p, .user-content li{
+    font-size: 13px ;
+    margin-bottom: 10px;
+}
+
+.user-content .material-symbols-outlined {
+    font-size: 30px;
+    color: #742b2b;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.spam-content a{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    background-color: #c9ada0 ;
+    color: white;
+    text-decoration: none;
+}
+.btn-fondo{
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left:400px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}

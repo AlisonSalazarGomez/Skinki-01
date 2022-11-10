@@ -21,6 +21,7 @@ header{
     position:fixed;
     z-index: 100;
     border-bottom: 2px solid rgb(243, 237, 237);
+    
 }
 .Text-center{
     text-align: center;
@@ -233,12 +234,24 @@ footer a{
     }
 
 
-    .btn{  /*Boton Angie*/
-        background: rgba(231, 141, 56, 0.911);
+    .btn-naranja{  /*Boton Angie*/
+        background: rgba(228, 186, 147, 0.911);
         border: black;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .col-md-4{
+        margin-top: 50px;
     }
     
+ .btn-primary:hover{
+    color: whitesmoke;
     
+
+ }   
 
 
 

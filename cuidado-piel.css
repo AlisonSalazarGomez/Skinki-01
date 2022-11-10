@@ -1,8 +1,9 @@
 .videos{
-    width: 70%;
-    height: 100%;
+    width: 43%;
+    height: 82%;
     margin: 20px;
     padding: 20px;
+    border-radius: 0% 20% 0% 20%;
 }
 
 *{
@@ -10,21 +11,26 @@
     margin: 0%;
 }
 .btn{
-    margin: 5px;
+    margin: 10px;
     border-radius: 50%;
     width: 70px;
     height: 70px;
     box-shadow: rgba(255, 255, 255, 0.774) 0px -23px 25px 0px inset, #a56da0d2 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 14px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     border: none;
     color: rgb(54, 54, 54);
+    padding: 28px;
+   
     }
 .fondo {
     background-color: rgba(238, 238, 238, 0.178);
     width: 100%;
     backdrop-filter: blur(15px);
 }
-body{
-    background-image: url(./images/fondonube1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+p{
+    width: 65%;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
 }

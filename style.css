@@ -456,12 +456,13 @@ footer a{
 /*Nosotras*/
 
 #introduccion{
-    display: flex;
     background-image: url(images/13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: content-box;
-    height: 450px;
+    padding-top: 50px;
+    flex-direction: column;
+     height: 700px;
 }
 
 
@@ -479,21 +480,28 @@ footer a{
 }
 
 #bloque-texto{
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.775);
     width: 80%;
-    height: 70%;
+    height: 46vh;
     align-self: flex-end;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
-    padding: 25px 5% 0px 5%;
+    margin-bottom: 60px;
+    padding: 20px 5% 0px 5%;
     box-sizing: border-box;
     text-align: justify;
+    border-radius: 5px;
 }
 
 #bloque-texto h1{
-     font-size: 50px;
+    font-size: 50px;
+    padding-bottom: 15px;
     text-align: center;
+}
+
+#bloque-texto p{
+    font-size: 18px;
+    text-align: justify;
 }
 
 .img {
@@ -504,7 +512,7 @@ footer a{
     margin-right: auto;}
 
 .tituloNos {
-    color: rgb(88, 24, 88);
+    color: rgb(167 112 73);
 
 }
 

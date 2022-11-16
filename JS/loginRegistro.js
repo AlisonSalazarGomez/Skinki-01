@@ -133,7 +133,22 @@ formularioLoginVal.addEventListener("submit", e=>{
         parrafoL.innerHTML = warningsL;
     }
     else{
-        parrafoL.innerHTML = "Enviado"
+
+         parrafoL.innerHTML = "Te encontramos exitosamente"
+         validar_user(emailL.value,contrasenaL.value)
+       
     }
 })
 
+function validar_user(email,contrasena){
+    fetch('data/data.json')
+        .then(respuesta => respuesta.json())
+        .then(usuarios => {
+            usuarios.forEach(usuario => {
+                if(usuario.Correo == email && usuario.password == contrasena){
+                    console.log(email,contrasena)
+                    window.location = "../index.html"
+                }
+            });
+        });
+}

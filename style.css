@@ -626,3 +626,12 @@ footer a{
     padding: 2px;
     background-color: white;
 }
+
+
+.iframe-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 30px;
+}
